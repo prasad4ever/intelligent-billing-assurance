@@ -1,0 +1,712 @@
+{
+  "access_policy": "TESTING_ONLY_DO_NOT_USE_FOR_DETECTION",
+  "currency": "CAD",
+  "purpose": "Testing only. Discrepancy detection must not read this file or use it as an input.",
+  "scenarios": [
+    {
+      "amendment_notes": [
+        "Addendum A filed by sales: transaction price revised effective 1 March 2026. Final countersignature still outstanding.",
+        "Addendum B recorded by billing operations: alternate transaction price effective 1 March 2026. Supersession of addendum A was not confirmed."
+      ],
+      "applicable_amendment_numbers": [
+        2,
+        3
+      ],
+      "applicable_pricing_term_ids": [
+        4,
+        5
+      ],
+      "applicable_unit_prices_e4": [
+        1000,
+        1350
+      ],
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0001",
+      "customer_code": "FI-001",
+      "invoice_line_id": 8,
+      "invoice_number": "INV-202603-FI-001",
+      "invoiced_from_amendment_number": 2,
+      "invoiced_from_pricing_term_id": 4,
+      "invoiced_unit_price_e4": 1000,
+      "line_number": 2,
+      "quantity": 3758,
+      "scenario": "ambiguous_contract_amendment"
+    },
+    {
+      "amount_cents": 42370,
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0003",
+      "customer_code": "FI-003",
+      "invoice_line_id": 20,
+      "invoice_number": "INV-202601-FI-003",
+      "invoiced_quantity": 4237,
+      "line_number": 2,
+      "scenario": "incorrect_usage_quantity",
+      "unit_price_e4": 1000,
+      "usage_quantity": 3767
+    },
+    {
+      "amount_cents": 250000,
+      "billing_period_end": "2026-02-28",
+      "billing_period_start": "2026-02-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0005",
+      "customer_code": "FI-005",
+      "extra_amount_cents": 250000,
+      "invoice_line_ids": [
+        43,
+        44
+      ],
+      "invoice_number": "INV-202602-FI-005",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "quantity": 1,
+      "scenario": "duplicate_charge",
+      "unit_price_e4": 25000000
+    },
+    {
+      "amendment_notes": [
+        "Addendum A filed by sales: transaction price revised effective 1 March 2026. Final countersignature still outstanding.",
+        "Addendum B recorded by billing operations: alternate transaction price effective 1 March 2026. Supersession of addendum A was not confirmed."
+      ],
+      "applicable_amendment_numbers": [
+        2,
+        3
+      ],
+      "applicable_pricing_term_ids": [
+        35,
+        36
+      ],
+      "applicable_unit_prices_e4": [
+        1000,
+        1350
+      ],
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0007",
+      "customer_code": "FI-007",
+      "invoice_line_id": 69,
+      "invoice_number": "INV-202603-FI-007",
+      "invoiced_from_amendment_number": 2,
+      "invoiced_from_pricing_term_id": 35,
+      "invoiced_unit_price_e4": 1000,
+      "line_number": 2,
+      "quantity": 3781,
+      "scenario": "ambiguous_contract_amendment"
+    },
+    {
+      "amount_cents": 38380,
+      "billing_period_end": "2026-02-28",
+      "billing_period_start": "2026-02-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0009",
+      "customer_code": "FI-009",
+      "invoice_line_id": 85,
+      "invoice_number": "INV-202602-FI-009",
+      "invoiced_quantity": 3838,
+      "line_number": 2,
+      "scenario": "incorrect_usage_quantity",
+      "unit_price_e4": 1000,
+      "usage_quantity": 3412
+    },
+    {
+      "amount_cents": 650000,
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0011",
+      "customer_code": "FI-011",
+      "extra_amount_cents": 650000,
+      "invoice_line_ids": [
+        107,
+        108
+      ],
+      "invoice_number": "INV-202603-FI-011",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "quantity": 1,
+      "scenario": "duplicate_charge",
+      "unit_price_e4": 65000000
+    },
+    {
+      "amendment_notes": [
+        "Addendum A filed by sales: transaction price revised effective 1 March 2026. Final countersignature still outstanding.",
+        "Addendum B recorded by billing operations: alternate transaction price effective 1 March 2026. Supersession of addendum A was not confirmed."
+      ],
+      "applicable_amendment_numbers": [
+        2,
+        3
+      ],
+      "applicable_pricing_term_ids": [
+        66,
+        67
+      ],
+      "applicable_unit_prices_e4": [
+        1000,
+        1350
+      ],
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0013",
+      "customer_code": "FI-013",
+      "invoice_line_id": 130,
+      "invoice_number": "INV-202603-FI-013",
+      "invoiced_from_amendment_number": 2,
+      "invoiced_from_pricing_term_id": 66,
+      "invoiced_unit_price_e4": 1000,
+      "line_number": 2,
+      "quantity": 3777,
+      "scenario": "ambiguous_contract_amendment"
+    },
+    {
+      "amount_cents": 42420,
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0015",
+      "customer_code": "FI-015",
+      "invoice_line_id": 150,
+      "invoice_number": "INV-202603-FI-015",
+      "invoiced_quantity": 4242,
+      "line_number": 2,
+      "scenario": "incorrect_usage_quantity",
+      "unit_price_e4": 1000,
+      "usage_quantity": 3771
+    },
+    {
+      "amount_cents": 250000,
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0017",
+      "customer_code": "FI-017",
+      "extra_amount_cents": 250000,
+      "invoice_line_ids": [
+        162,
+        163
+      ],
+      "invoice_number": "INV-202601-FI-017",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "quantity": 1,
+      "scenario": "duplicate_charge",
+      "unit_price_e4": 25000000
+    },
+    {
+      "amendment_notes": [
+        "Addendum A filed by sales: transaction price revised effective 1 March 2026. Final countersignature still outstanding.",
+        "Addendum B recorded by billing operations: alternate transaction price effective 1 March 2026. Supersession of addendum A was not confirmed."
+      ],
+      "applicable_amendment_numbers": [
+        2,
+        3
+      ],
+      "applicable_pricing_term_ids": [
+        97,
+        98
+      ],
+      "applicable_unit_prices_e4": [
+        1000,
+        1350
+      ],
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0019",
+      "customer_code": "FI-019",
+      "invoice_line_id": 191,
+      "invoice_number": "INV-202603-FI-019",
+      "invoiced_from_amendment_number": 2,
+      "invoiced_from_pricing_term_id": 97,
+      "invoiced_unit_price_e4": 1000,
+      "line_number": 2,
+      "quantity": 3780,
+      "scenario": "ambiguous_contract_amendment"
+    },
+    {
+      "amount_cents": 42390,
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0021",
+      "customer_code": "FI-021",
+      "invoice_line_id": 203,
+      "invoice_number": "INV-202601-FI-021",
+      "invoiced_quantity": 4239,
+      "line_number": 2,
+      "scenario": "incorrect_usage_quantity",
+      "unit_price_e4": 1000,
+      "usage_quantity": 3768
+    },
+    {
+      "amount_cents": 650000,
+      "billing_period_end": "2026-02-28",
+      "billing_period_start": "2026-02-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0023",
+      "customer_code": "FI-023",
+      "extra_amount_cents": 650000,
+      "invoice_line_ids": [
+        226,
+        227
+      ],
+      "invoice_number": "INV-202602-FI-023",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "quantity": 1,
+      "scenario": "duplicate_charge",
+      "unit_price_e4": 65000000
+    },
+    {
+      "amendment_notes": [
+        "Addendum A filed by sales: transaction price revised effective 1 March 2026. Final countersignature still outstanding.",
+        "Addendum B recorded by billing operations: alternate transaction price effective 1 March 2026. Supersession of addendum A was not confirmed."
+      ],
+      "applicable_amendment_numbers": [
+        2,
+        3
+      ],
+      "applicable_pricing_term_ids": [
+        128,
+        129
+      ],
+      "applicable_unit_prices_e4": [
+        1000,
+        1350
+      ],
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0025",
+      "customer_code": "FI-025",
+      "invoice_line_id": 252,
+      "invoice_number": "INV-202603-FI-025",
+      "invoiced_from_amendment_number": 2,
+      "invoiced_from_pricing_term_id": 128,
+      "invoiced_unit_price_e4": 1000,
+      "line_number": 2,
+      "quantity": 3754,
+      "scenario": "ambiguous_contract_amendment"
+    },
+    {
+      "amount_cents": 38310,
+      "billing_period_end": "2026-02-28",
+      "billing_period_start": "2026-02-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0027",
+      "customer_code": "FI-027",
+      "invoice_line_id": 268,
+      "invoice_number": "INV-202602-FI-027",
+      "invoiced_quantity": 3831,
+      "line_number": 2,
+      "scenario": "incorrect_usage_quantity",
+      "unit_price_e4": 1000,
+      "usage_quantity": 3406
+    },
+    {
+      "amount_cents": 250000,
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0029",
+      "customer_code": "FI-029",
+      "extra_amount_cents": 250000,
+      "invoice_line_ids": [
+        290,
+        291
+      ],
+      "invoice_number": "INV-202603-FI-029",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "quantity": 1,
+      "scenario": "duplicate_charge",
+      "unit_price_e4": 25000000
+    },
+    {
+      "amendment_notes": [
+        "Addendum A filed by sales: transaction price revised effective 1 March 2026. Final countersignature still outstanding.",
+        "Addendum B recorded by billing operations: alternate transaction price effective 1 March 2026. Supersession of addendum A was not confirmed."
+      ],
+      "applicable_amendment_numbers": [
+        2,
+        3
+      ],
+      "applicable_pricing_term_ids": [
+        159,
+        160
+      ],
+      "applicable_unit_prices_e4": [
+        1000,
+        1350
+      ],
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0031",
+      "customer_code": "FI-031",
+      "invoice_line_id": 313,
+      "invoice_number": "INV-202603-FI-031",
+      "invoiced_from_amendment_number": 2,
+      "invoiced_from_pricing_term_id": 159,
+      "invoiced_unit_price_e4": 1000,
+      "line_number": 2,
+      "quantity": 3759,
+      "scenario": "ambiguous_contract_amendment"
+    },
+    {
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0032",
+      "contractual_amount_cents": 180000,
+      "contractual_unit_price_e4": 18000000,
+      "customer_code": "FI-032",
+      "invoice_line_id": 315,
+      "invoice_number": "INV-202601-FI-032",
+      "invoiced_amount_cents": 215000,
+      "invoiced_unit_price_e4": 21500000,
+      "line_number": 1,
+      "quantity": 1,
+      "scenario": "incorrect_contractual_price"
+    },
+    {
+      "amount_cents": 42430,
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0033",
+      "customer_code": "FI-033",
+      "invoice_line_id": 333,
+      "invoice_number": "INV-202603-FI-033",
+      "invoiced_quantity": 4243,
+      "line_number": 2,
+      "scenario": "incorrect_usage_quantity",
+      "unit_price_e4": 1000,
+      "usage_quantity": 3772
+    },
+    {
+      "billing_period_end": "2026-02-28",
+      "billing_period_start": "2026-02-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0034",
+      "contractual_amount_cents": 420000,
+      "contractual_unit_price_e4": 42000000,
+      "customer_code": "FI-034",
+      "invoice_line_id": 339,
+      "invoice_number": "INV-202602-FI-034",
+      "invoiced_amount_cents": 455000,
+      "invoiced_unit_price_e4": 45500000,
+      "line_number": 1,
+      "quantity": 1,
+      "scenario": "incorrect_contractual_price"
+    },
+    {
+      "amount_cents": 650000,
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0035",
+      "customer_code": "FI-035",
+      "extra_amount_cents": 650000,
+      "invoice_line_ids": [
+        345,
+        346
+      ],
+      "invoice_number": "INV-202601-FI-035",
+      "line_numbers": [
+        1,
+        2
+      ],
+      "quantity": 1,
+      "scenario": "duplicate_charge",
+      "unit_price_e4": 65000000
+    },
+    {
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0036",
+      "contractual_amount_cents": 180000,
+      "contractual_unit_price_e4": 18000000,
+      "customer_code": "FI-036",
+      "invoice_line_id": 363,
+      "invoice_number": "INV-202603-FI-036",
+      "invoiced_amount_cents": 215000,
+      "invoiced_unit_price_e4": 21500000,
+      "line_number": 1,
+      "quantity": 1,
+      "scenario": "incorrect_contractual_price"
+    },
+    {
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0038",
+      "contractual_amount_cents": 420000,
+      "contractual_unit_price_e4": 42000000,
+      "customer_code": "FI-038",
+      "invoice_line_id": 376,
+      "invoice_number": "INV-202601-FI-038",
+      "invoiced_amount_cents": 455000,
+      "invoiced_unit_price_e4": 45500000,
+      "line_number": 1,
+      "quantity": 1,
+      "scenario": "incorrect_contractual_price"
+    },
+    {
+      "amount_cents": 42330,
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0039",
+      "customer_code": "FI-039",
+      "invoice_line_id": 386,
+      "invoice_number": "INV-202601-FI-039",
+      "invoiced_quantity": 4233,
+      "line_number": 2,
+      "scenario": "incorrect_usage_quantity",
+      "unit_price_e4": 1000,
+      "usage_quantity": 3763
+    },
+    {
+      "billing_period_end": "2026-02-28",
+      "billing_period_start": "2026-02-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0040",
+      "contractual_amount_cents": 180000,
+      "contractual_unit_price_e4": 18000000,
+      "customer_code": "FI-040",
+      "invoice_line_id": 400,
+      "invoice_number": "INV-202602-FI-040",
+      "invoiced_amount_cents": 215000,
+      "invoiced_unit_price_e4": 21500000,
+      "line_number": 1,
+      "quantity": 1,
+      "scenario": "incorrect_contractual_price"
+    },
+    {
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0042",
+      "contractual_amount_cents": 420000,
+      "contractual_unit_price_e4": 42000000,
+      "customer_code": "FI-042",
+      "invoice_line_id": 423,
+      "invoice_number": "INV-202603-FI-042",
+      "invoiced_amount_cents": 455000,
+      "invoiced_unit_price_e4": 45500000,
+      "line_number": 1,
+      "quantity": 1,
+      "scenario": "incorrect_contractual_price"
+    },
+    {
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0044",
+      "contractual_amount_cents": 180000,
+      "contractual_unit_price_e4": 18000000,
+      "customer_code": "FI-044",
+      "invoice_line_id": 436,
+      "invoice_number": "INV-202601-FI-044",
+      "invoiced_amount_cents": 215000,
+      "invoiced_unit_price_e4": 21500000,
+      "line_number": 1,
+      "quantity": 1,
+      "scenario": "incorrect_contractual_price"
+    },
+    {
+      "amount_cents": 38380,
+      "billing_period_end": "2026-02-28",
+      "billing_period_start": "2026-02-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0045",
+      "customer_code": "FI-045",
+      "invoice_line_id": 450,
+      "invoice_number": "INV-202602-FI-045",
+      "invoiced_quantity": 3838,
+      "line_number": 2,
+      "scenario": "incorrect_usage_quantity",
+      "unit_price_e4": 1000,
+      "usage_quantity": 3412
+    },
+    {
+      "billing_period_end": "2026-02-28",
+      "billing_period_start": "2026-02-01",
+      "charge_code": "CORE_PLATFORM",
+      "contract_number": "CA-2025-0046",
+      "contractual_amount_cents": 420000,
+      "contractual_unit_price_e4": 42000000,
+      "customer_code": "FI-046",
+      "invoice_line_id": 460,
+      "invoice_number": "INV-202602-FI-046",
+      "invoiced_amount_cents": 455000,
+      "invoiced_unit_price_e4": 45500000,
+      "line_number": 1,
+      "quantity": 1,
+      "scenario": "incorrect_contractual_price"
+    },
+    {
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0048",
+      "contractual_amount_cents": 112048,
+      "customer_code": "FI-048",
+      "discounted_unit_price_e4": 800,
+      "invoice_line_id": 476,
+      "invoice_number": "INV-202601-FI-048",
+      "invoiced_amount_cents": 140060,
+      "invoiced_unit_price_e4": 1000,
+      "line_number": 2,
+      "list_unit_price_e4": 1000,
+      "quantity": 14006,
+      "scenario": "missing_volume_discount",
+      "volume_threshold": 8000
+    },
+    {
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0048",
+      "contractual_amount_cents": 111920,
+      "customer_code": "FI-048",
+      "discounted_unit_price_e4": 800,
+      "invoice_line_id": 484,
+      "invoice_number": "INV-202603-FI-048",
+      "invoiced_amount_cents": 139900,
+      "invoiced_unit_price_e4": 1000,
+      "line_number": 2,
+      "list_unit_price_e4": 1000,
+      "quantity": 13990,
+      "scenario": "missing_volume_discount",
+      "volume_threshold": 8000
+    },
+    {
+      "billing_period_end": "2026-02-28",
+      "billing_period_start": "2026-02-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0050",
+      "contractual_amount_cents": 86197,
+      "customer_code": "FI-050",
+      "discounted_unit_price_e4": 680,
+      "invoice_line_id": 500,
+      "invoice_number": "INV-202602-FI-050",
+      "invoiced_amount_cents": 107746,
+      "invoiced_unit_price_e4": 850,
+      "line_number": 2,
+      "list_unit_price_e4": 850,
+      "quantity": 12676,
+      "scenario": "missing_volume_discount",
+      "volume_threshold": 8000
+    },
+    {
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0052",
+      "contractual_amount_cents": 134400,
+      "customer_code": "FI-052",
+      "discounted_unit_price_e4": 960,
+      "invoice_line_id": 524,
+      "invoice_number": "INV-202603-FI-052",
+      "invoiced_amount_cents": 168000,
+      "invoiced_unit_price_e4": 1200,
+      "line_number": 2,
+      "list_unit_price_e4": 1200,
+      "quantity": 14000,
+      "scenario": "missing_volume_discount",
+      "volume_threshold": 8000
+    },
+    {
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0054",
+      "contractual_amount_cents": 112232,
+      "customer_code": "FI-054",
+      "discounted_unit_price_e4": 800,
+      "invoice_line_id": 536,
+      "invoice_number": "INV-202601-FI-054",
+      "invoiced_amount_cents": 140290,
+      "invoiced_unit_price_e4": 1000,
+      "line_number": 2,
+      "list_unit_price_e4": 1000,
+      "quantity": 14029,
+      "scenario": "missing_volume_discount",
+      "volume_threshold": 8000
+    },
+    {
+      "billing_period_end": "2026-02-28",
+      "billing_period_start": "2026-02-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0056",
+      "contractual_amount_cents": 86265,
+      "customer_code": "FI-056",
+      "discounted_unit_price_e4": 680,
+      "invoice_line_id": 560,
+      "invoice_number": "INV-202602-FI-056",
+      "invoiced_amount_cents": 107831,
+      "invoiced_unit_price_e4": 850,
+      "line_number": 2,
+      "list_unit_price_e4": 850,
+      "quantity": 12686,
+      "scenario": "missing_volume_discount",
+      "volume_threshold": 8000
+    },
+    {
+      "billing_period_end": "2026-03-31",
+      "billing_period_start": "2026-03-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0058",
+      "contractual_amount_cents": 134525,
+      "customer_code": "FI-058",
+      "discounted_unit_price_e4": 960,
+      "invoice_line_id": 584,
+      "invoice_number": "INV-202603-FI-058",
+      "invoiced_amount_cents": 168156,
+      "invoiced_unit_price_e4": 1200,
+      "line_number": 2,
+      "list_unit_price_e4": 1200,
+      "quantity": 14013,
+      "scenario": "missing_volume_discount",
+      "volume_threshold": 8000
+    },
+    {
+      "billing_period_end": "2026-01-31",
+      "billing_period_start": "2026-01-01",
+      "charge_code": "TXN_PROCESSING",
+      "contract_number": "CA-2025-0060",
+      "contractual_amount_cents": 112032,
+      "customer_code": "FI-060",
+      "discounted_unit_price_e4": 800,
+      "invoice_line_id": 596,
+      "invoice_number": "INV-202601-FI-060",
+      "invoiced_amount_cents": 140040,
+      "invoiced_unit_price_e4": 1000,
+      "line_number": 2,
+      "list_unit_price_e4": 1000,
+      "quantity": 14004,
+      "scenario": "missing_volume_discount",
+      "volume_threshold": 8000
+    }
+  ],
+  "seed": 42
+}

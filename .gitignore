@@ -1,0 +1,32 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.db
+
+# Temporary files and tool caches
+*.tmp
+*.temp
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
