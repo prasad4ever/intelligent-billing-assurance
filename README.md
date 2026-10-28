@@ -42,6 +42,7 @@ From the project folder:
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+python scripts\init_db.py
 python scripts\reconcile.py
 python scripts\serve.py
 ```
@@ -54,9 +55,7 @@ streamlit run streamlit_app.py
 
 The API listens on http://127.0.0.1:8000. The dashboard uses that address unless `BILLING_API_URL` is set. Interactive API docs are at http://127.0.0.1:8000/docs.
 
-`python scripts\init_db.py` rebuilds the synthetic database and the testing label file. That replaces `data\billing_assurance.sqlite`. The database already in this folder has been reconciled. Run initialization only when you want a fresh dataset, then run `python scripts\reconcile.py` again.
-
-`python -m billing_assurance` also rebuilds the database.
+A fresh clone does not include `data\billing_assurance.sqlite`. `python scripts\init_db.py` creates that database and the testing label file. Running it again replaces the database. Reconcile after each initialization. `python -m billing_assurance` also rebuilds the database.
 
 ## Tests
 
